@@ -2,7 +2,7 @@
 //  SimplePageViewerTests.swift
 //  SimplePageViewerTests
 //
-//  Created by ZydeSoft on 23/05/18.
+//  Created by Saravanakumar on 23/05/18.
 //  Copyright © 2018 Saravanakumar. All rights reserved.
 //
 

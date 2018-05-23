@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F0EB851720B536330031C964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB851620B536330031C964 /* AppDelegate.swift */; };
-		F0EB851920B536330031C964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB851820B536330031C964 /* ViewController.swift */; };
+		F0EB851920B536330031C964 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB851820B536330031C964 /* MainViewController.swift */; };
 		F0EB851C20B536330031C964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EB851A20B536330031C964 /* Main.storyboard */; };
 		F0EB851E20B536330031C964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0EB851D20B536330031C964 /* Assets.xcassets */; };
 		F0EB852120B536330031C964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EB851F20B536330031C964 /* LaunchScreen.storyboard */; };
 		F0EB852C20B536330031C964 /* SimplePageViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB852B20B536330031C964 /* SimplePageViewerTests.swift */; };
 		F0EB853720B536330031C964 /* SimplePageViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB853620B536330031C964 /* SimplePageViewerUITests.swift */; };
+		F0EB854920B536550031C964 /* SegmentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB854420B536540031C964 /* SegmentViewCell.swift */; };
+		F0EB854A20B536550031C964 /* Extensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB854520B536540031C964 /* Extensions+String.swift */; };
+		F0EB854B20B536550031C964 /* GenericBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB854620B536540031C964 /* GenericBorderView.swift */; };
+		F0EB854C20B536550031C964 /* SegmentControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB854720B536540031C964 /* SegmentControlView.swift */; };
+		F0EB854D20B536550031C964 /* SegmentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0EB854820B536540031C964 /* SegmentViewCell.xib */; };
+		F0EB855020B537BC0031C964 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB854E20B537BC0031C964 /* MainCollectionViewCell.swift */; };
+		F0EB855120B537BC0031C964 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0EB854F20B537BC0031C964 /* MainCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		F0EB851320B536330031C964 /* SimplePageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0EB851620B536330031C964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0EB851820B536330031C964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0EB851820B536330031C964 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F0EB851B20B536330031C964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0EB851D20B536330031C964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0EB852020B536330031C964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		F0EB853220B536330031C964 /* SimplePageViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePageViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0EB853620B536330031C964 /* SimplePageViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePageViewerUITests.swift; sourceTree = "<group>"; };
 		F0EB853820B536330031C964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EB854420B536540031C964 /* SegmentViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentViewCell.swift; sourceTree = "<group>"; };
+		F0EB854520B536540031C964 /* Extensions+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+String.swift"; sourceTree = "<group>"; };
+		F0EB854620B536540031C964 /* GenericBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericBorderView.swift; sourceTree = "<group>"; };
+		F0EB854720B536540031C964 /* SegmentControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentControlView.swift; sourceTree = "<group>"; };
+		F0EB854820B536540031C964 /* SegmentViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentViewCell.xib; sourceTree = "<group>"; };
+		F0EB854E20B537BC0031C964 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		F0EB854F20B537BC0031C964 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +112,14 @@
 			isa = PBXGroup;
 			children = (
 				F0EB851620B536330031C964 /* AppDelegate.swift */,
-				F0EB851820B536330031C964 /* ViewController.swift */,
+				F0EB851820B536330031C964 /* MainViewController.swift */,
+				F0EB854E20B537BC0031C964 /* MainCollectionViewCell.swift */,
+				F0EB854F20B537BC0031C964 /* MainCollectionViewCell.xib */,
+				F0EB854520B536540031C964 /* Extensions+String.swift */,
+				F0EB854620B536540031C964 /* GenericBorderView.swift */,
+				F0EB854720B536540031C964 /* SegmentControlView.swift */,
+				F0EB854420B536540031C964 /* SegmentViewCell.swift */,
+				F0EB854820B536540031C964 /* SegmentViewCell.xib */,
 				F0EB851A20B536330031C964 /* Main.storyboard */,
 				F0EB851D20B536330031C964 /* Assets.xcassets */,
 				F0EB851F20B536330031C964 /* LaunchScreen.storyboard */,
@@ -234,6 +255,8 @@
 			files = (
 				F0EB852120B536330031C964 /* LaunchScreen.storyboard in Resources */,
 				F0EB851E20B536330031C964 /* Assets.xcassets in Resources */,
+				F0EB854D20B536550031C964 /* SegmentViewCell.xib in Resources */,
+				F0EB855120B537BC0031C964 /* MainCollectionViewCell.xib in Resources */,
 				F0EB851C20B536330031C964 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0EB851920B536330031C964 /* ViewController.swift in Sources */,
+				F0EB855020B537BC0031C964 /* MainCollectionViewCell.swift in Sources */,
+				F0EB854A20B536550031C964 /* Extensions+String.swift in Sources */,
+				F0EB851920B536330031C964 /* MainViewController.swift in Sources */,
+				F0EB854C20B536550031C964 /* SegmentControlView.swift in Sources */,
+				F0EB854920B536550031C964 /* SegmentViewCell.swift in Sources */,
 				F0EB851720B536330031C964 /* AppDelegate.swift in Sources */,
+				F0EB854B20B536550031C964 /* GenericBorderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +455,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8H2Z85T93;
 				INFOPLIST_FILE = SimplePageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com..SimplePageViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zydesoft.phoneAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,9 +471,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8H2Z85T93;
 				INFOPLIST_FILE = SimplePageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com..SimplePageViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zydesoft.phoneAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
