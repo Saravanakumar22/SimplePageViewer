@@ -1,5 +1,5 @@
 
-# SimpleViewPager
+# SimplePageViewer
 
   - Looks likes Android's ViewPager
   - Preview Left Right Side Partially
